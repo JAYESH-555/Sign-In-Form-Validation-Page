@@ -1,0 +1,15 @@
+body {
+    background-color: #e0f7fa; /* Light blue background */
+    font-family: 'Roboto', sans-serif; /* Updated font family */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif; /* Different font for headings */
+    font-weight: bold;
+}
+
+p, ul {
+    font-family: 'Roboto', sans-serif;
+}

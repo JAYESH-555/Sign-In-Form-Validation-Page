@@ -1,0 +1,79 @@
+.form-container {
+    width: 400px; /* Increased width */
+    margin: 0 auto;
+    padding: 3rem; /* More padding for larger input fields */
+    border-radius: 12px;
+    background-color: #f0f8ff;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 5rem;
+}
+
+.wrapper input {
+    width: 100%;
+    padding: 10px; /* Increased input padding */
+    font-size: 16px; /* Increased input font size */
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 2rem;
+    font-size: 24px;
+}
+
+.next-btn, .prev-btn, .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem; /* Larger buttons */
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1rem 0.5rem;
+}
+
+.error-message {
+    color: red;
+    font-size: 1rem;
+}
+
+.success-message {
+    color: green; /* Green success message */
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+/* Style for the Logout button */
+.logout-btn {
+    background-color: red; /* Green background for success */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for a bigger button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.logout-btn:hover {
+    background-color: rgb(205, 42, 42); /* Darker green on hover */
+}
+
+/* Align button to the center */
+.form-container {
+    text-align: center;
+}

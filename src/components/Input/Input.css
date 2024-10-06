@@ -1,0 +1,21 @@
+.error-input {
+    border: 2px solid red;
+}
+
+.shake {
+    animation: shakeInput 0.2s linear 0s 3;
+}
+
+@keyframes shakeInput {
+    0% { margin-left: 0rem; }
+    25% { margin-left: 0.5rem; }
+    75% { margin-left: -0.5rem; }
+    100% { margin-left: 0rem; }
+}
+
+span {
+    font-size: 0.85rem;
+    color: red;
+    display: block;
+    margin-top: 0.5rem;
+}
